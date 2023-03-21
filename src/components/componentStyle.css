@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #e6f1fe;
+}
+
+.nav_style {
+  background-color: #bfd5ff;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  height: 8rem;
+}
+
+.navbar-brand {
+  margin: 20px;
+  flex-grow: 2;
+}
+
+.btn_nav {
+  flex-direction: row;
+  margin-right: 12px;
+}
+
+.btn_login {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1a1a1a;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 2.89em;
+  min-width: 0;
+  outline: none;
+  padding: 0.4em 1.2em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.btn_login:disabled {
+  pointer-events: none;
+}
+
+.btn_login:hover {
+  color: #fff;
+  background-color: #9282fc;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn_login:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
