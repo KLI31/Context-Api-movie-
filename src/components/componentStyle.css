@@ -16,6 +16,8 @@ body {
   display: flex;
   align-items: center;
   height: 8rem;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .navbar-brand {
@@ -68,4 +70,9 @@ body {
 .btn_login:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
